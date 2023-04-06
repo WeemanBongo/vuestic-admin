@@ -72,6 +72,23 @@ export default {
       ],
     },
     {
+      name: 'services',
+      displayName: 'Elas Services',
+      meta: {
+        icon: 'vuestic-iconset-tables',
+      },
+      children: [
+        {
+          name: 'elas',
+          displayName: 'Services Overview',
+        },
+        // {
+        //   name: 'data',
+        //   displayName: 'menu.dataTables',
+        // },
+      ],
+    },
+    {
       name: 'ui',
       displayName: 'menu.uiElements',
       meta: {

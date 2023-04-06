@@ -139,6 +139,21 @@ const routes: Array<RouteRecordRaw> = [
         ],
       },
       {
+        name: 'services',
+        path: 'services',
+        component: RouteViewComponent,
+        children: [
+          {
+            name: 'elas',
+            path: 'elas',
+            component: () => import('../pages/admin/services/ServicesTables.vue'),
+            meta: {
+              wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Tables',
+            },
+          },
+        ],
+      },
+      {
         name: 'pages',
         path: 'pages',
         component: RouteViewComponent,
